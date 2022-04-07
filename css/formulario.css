@@ -1,0 +1,111 @@
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+
+}
+.header__buscador i{
+    position: relative;
+    left: 30px;    
+}
+.formulario{
+    /* background-color: #aca; */
+    height: 750px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: center;
+
+    position: relative;
+    margin: auto;
+    top: 15px
+}
+.formulario__form{
+    display: block;
+    height: 680px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+.formulario__form label{
+    display: block;
+    
+}
+span{
+    font-size: 25px;
+    margin: 15px;
+}
+.formulario__form input:not([type="submit"],[type="reset"]){
+    display: block;
+    margin: 5px auto;
+    outline: none;
+    height: 25px;
+    padding: 15px;
+    border: 1px solid #000;
+}
+.solicita label{
+    display: inline-flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.solicita span{
+    padding-right: 10px;
+}
+select{
+    height: 40px;
+    margin: 10px;
+    
+}
+
+.terminos{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+.terminos a{
+    color:blue;
+    text-decoration: none;
+}
+
+textarea{
+    display: block;
+    margin: 12px auto;
+    resize: none;
+}
+
+.formulario__btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .6s;
+}
+.btn_enviar:hover{
+    background-color: #4CAF50;
+}
+.btn_limpiar:hover{
+    background-color: #008CBA;
+}
+
+/* --------------- */
+

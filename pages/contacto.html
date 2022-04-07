@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Maria C. Indumentaria</title>
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+            <a href="../Index.html"><img class="header__imgLogo" src="../assets/img/Maria C Vector-02.png" alt="Logo Maria C Indumentaria" width="300px"></a>
+            <!-- imagen del logo se remplazaria por un archivo SVG -->
+            <div class="header__buscador">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="header__input-search" type="search" name="" id="" placeholder="¿Que estas buscando?">
+            </div>
+            <div class="header__carrito">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span>+3</span>
+            </div>
+            <div class="header__perfil">
+                <img src="../assets/img/avatar perfil.jpg" alt="Imagen de Perfil" width="30px">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+            </div>        
+            
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="../Index.html">Inicio</a></li>
+                <li><a href="../pages/deportivo.html">Indumentaria Deportiva</a> </li>
+                <li><a href="../pages/escolares.html">Uniforme Escolares</a></li>
+                <li><a href="../pages/empresarial.html">Indumentaria Empresarial</a></li>
+                <li><a href="../pages/invierno.html">Indumentaria Invierno</a></li>
+                <li><a href="../pages/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- --------------------------------------------------- -->
+        <h1 class="titulo">Contacto</h1>
+
+        <div class="contenedor">
+            <div class="formulario">
+                <form class="formulario__form" action="">
+                    <label  for="nombre">
+                        <span>Nombre</span>
+                        <input type="text" name="" id="nombre"  required> 
+                    </label>
+                    
+                    <label for="apellido">
+                        <span>Apellido</span>
+                        <input type="text" name="" id="apellido" autocomplete="nope" required>
+                    </label>
+                    
+                    <label for="telefono">
+                        <span>Telefono</span>
+                        <input type="number" name="" id="telefono" autocomplete="nope" minlength="10" maxlength="10" required>
+                    </label>
+                    
+                    <label for="mail">
+                        <span>E-mail</span>
+                        <input type="email" name="" id="mail" autocomplete="nope" required>
+                    </label>
+                    
+                    <span>Solicita:</span>
+                    <div class="solicita">
+                        <label class="solicita__opcion" for="compra">            
+                            <span>Compra</span>                   
+                            <input type="radio" name="tipo" id="compra">
+                        </label>
+                        <label class="solicita__opcion" for="presup">            
+                            <span>Presupuesto</span>                   
+                            <input type="radio" name="tipo" id="presup">
+                        </label>
+                    </div>
+
+                    <label for="metodoDePago">
+                        <span>Metodo de Pago</span>
+                        <select name="" id="metodoDePago">
+                            <option value="Efectivo">Efectivo</option>
+                            <option value="Tarjeta">Tarjeta de Credito/Debito</option>
+                        </select>
+                    </label>
+                    
+                    <label for="coment">
+                        <span>Dejá un comentario</span>
+                        <textarea name="" id="coment" cols="50" rows="10"></textarea>
+                    </label>
+                    
+                    <div class="formulario__btn">
+                        <input class="btn btn_enviar" type="submit" value="Enviar">
+                        <input class="btn btn_limpiar" type="reset" value="Limpiar">
+                    </div>
+                </form>
+                <!--   eliminados con CSS -->
+            </div>
+            <label class="terminos" for="terminos">
+                <input type="checkbox" name="" id="terminos" required>
+                <p>Al hacer clic en "Enviar", acepta nuestras <a href="#">condiciones de servicio</a> y <a href="#">declaración de privacidad</a>. Ocasionalmente le enviaremos correos electrónicos relacionados con su cuenta.</p>
+            </label>
+        </div>
+    
+    <footer class="footer__redes">
+        <div class="footer__redes-contenedor"></div>
+        <a href="https://www.facebook.com/MariaCIndumentaria.Cba" target="blank_"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true" target="blank_"></i></a>
+        <a href="https://www.instagram.com/mariacindumentaria" target="blank_"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://goo.gl/maps/x2sLX8z1uvhqvRET8" target="blank_"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+
+    </footer>
+</body>
+</html>

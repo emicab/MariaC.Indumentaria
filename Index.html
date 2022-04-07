@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Maria C. Indumentaria</title>
+</head>
+<body>
+
+    <header>
+        <div class="header__logo">
+            <a href="Index.html"><img class="header__imgLogo" src="assets/img/Maria C Vector-02.png" alt="Logo Maria C Indumentaria" width="300px"></a>
+            <!-- imagen del logo se remplazaria por un archivo SVG -->
+            <div class="header__buscador">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="header__input-search" type="search" name="" id="" placeholder="¿Que estas buscando?">
+                <i class="fa fa-microphone-slash" aria-hidden="true"></i>
+                <!-- Icono de Microfono tachado hasta agregar la funcion (falta incorporarla con Js) -->
+            </div>
+            <div class="header__carrito">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>                
+            </div>
+            <div class="header__deseo">
+                <i class="fa fa-heart" aria-hidden="true"></i>                
+            </div>        
+            
+        </div>
+        <!-- Menu -->
+        <nav class="header__nav">
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="pages/deportivo.html">Indumentaria Deportiva</a> </li>
+                <li><a href="pages/escolares.html">Uniforme Escolares</a></li>
+                <li><a href="pages/empresarial.html">Indumentaria Empresarial</a></li>
+                <li><a href="pages/invierno.html">Indumentaria Invierno</a></li>
+                <li><a href="pages/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- PORTAL DE NOTICIAS. PROMOCIONES, PRODUCTOS NUEVOS, ETC. -->
+       <div class="container__slider">
+		<div class="slider" id="slider">
+			<div class="slider__section">
+				<img src="assets/img/img1 (1).JPG" class="slider__img">
+			</div>
+			<div class="slider__section">
+				<img src="assets/img/img1 (2).JPG" class="slider__img">
+			</div>
+			<div class="slider__section">
+				<img src="assets/img/img1 (3).JPG" class="slider__img">
+			</div>
+			<div class="slider__section">
+				<img src="assets/img/img1 (4).JPG" class="slider__img">
+			</div>
+			<div class="slider__section">
+				<img src="assets/img/img1 (5).JPG" class="slider__img">
+			</div>
+			<div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+			<div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+		</div>
+	
+    <footer class="footer__redes">
+        <div class="footer__redes-contenedor"></div>
+        <a href="https://www.facebook.com/MariaCIndumentaria.Cba" target="blank_"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true" target="blank_"></i></a>
+        <a href="https://www.instagram.com/mariacindumentaria" target="blank_"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://goo.gl/maps/x2sLX8z1uvhqvRET8" target="blank_"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+
+    </footer>
+
+    <script src="js/slider.js"></script>
+</body>
+</html>
